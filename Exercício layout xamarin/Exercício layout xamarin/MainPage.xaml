@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Exercício_layout_xamarin.MainPage">
+
+    <Frame BackgroundColor="DarkRed"
+           Margin="15"
+           CornerRadius="10">
+        <StackLayout>
+            <BoxView Color="Gray"
+                     HorizontalOptions="Center"
+                     HeightRequest="50"
+                     WidthRequest="50">
+            </BoxView>
+            <Label Text="Testando StackLayout"
+                   TextColor="White"
+                   HorizontalOptions="Center">
+            </Label>
+            <BoxView Color="Gray"
+                     HorizontalOptions="Center"
+                     HeightRequest="180"
+                     WidthRequest="150">
+            </BoxView>
+            <Label Text="ID: 55893"
+                   TextColor="White"
+                   HorizontalOptions="Center">
+            </Label>
+            <Label Text="Nome"
+                   HorizontalOptions="Start"
+                   TextColor="White">
+            </Label>
+            <Label Text="Ederson"
+                   BackgroundColor="White"
+                   HorizontalTextAlignment="Center"
+                   FontSize="Large"
+                   FontAttributes="Bold"
+                   TextColor="Black">
+            </Label>
+            <Label Text="Curso"
+                   HorizontalOptions="Start"
+                   TextColor="White">
+            </Label>
+            <Label Text="Sistemas de informação"
+                   BackgroundColor="White"
+                   HorizontalTextAlignment="Center"
+                   FontSize="Large"
+                   TextColor="Black">
+            </Label>
+            <Label Text="Turno"
+                   HorizontalOptions="Start"
+                   TextColor="White">
+            </Label>
+            <Label Text="Noturno"
+                   BackgroundColor="White"
+                   HorizontalTextAlignment="Center"
+                   FontSize="Large"
+                   TextColor="Black">
+            </Label>
+            <Label Text="Série"
+                   HorizontalOptions="Start"
+                   TextColor="White">
+            </Label>
+            <Label Text="7"
+                   BackgroundColor="White"
+                   HorizontalTextAlignment="Center"
+                   FontSize="Large"
+                   TextColor="Black">
+            </Label>
+        </StackLayout>
+    </Frame>
+
+</ContentPage>
